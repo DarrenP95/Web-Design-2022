@@ -1,0 +1,95 @@
+
+<link rel="stylesheet" href="formstyle.css">
+
+
+<title>Registration Form</title>
+
+<body>
+  
+
+
+    <h1>Registration Form</h1>
+
+   <form action="info.php" method="get" class="form-example">
+
+    <div class="userid">
+      <label for="uderid">User id: </label>
+      <input type="text" name="uderid" id="userid" 
+      placeholder="Required, Length of 5 to 12 characters" style="width: 250px;" 
+      minlength="7" maxlength="12">
+    </div>
+    <div class="password">
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" 
+      placeholder="Required, Length of 7 to 12 characters " style="width: 250px;"
+      minlength="7" maxlength="12">
+    </div>
+
+    <div class="name">
+        <label for="name">Name: </label>
+        <input onkeypress="return /[a-z]/i.test(event.key)"  type="text" name="name" id="name" 
+        placeholder="Required, letters only"
+        style="width: 350px;">
+      </div>
+      <div class="adress">
+        <label for="email">Adress: </label>
+        <input type="adress" name="adress" id="adress"
+         placeholder="Optional" style="width: 350px;">
+      </div>
+
+      <div class="country">
+        <label for="country">Country: </label>
+       <select id="country" name="country" >
+    <option value="South Africa">South Africa</option>
+    <option value="England">England</option>
+    <option value="Thailand">Thailand</option>
+    <option value="South Korea">South Korea</option>
+    
+    </select> 
+        
+      </div>
+      <br>
+
+      <div class="zipcode">
+        <label for="name">Zip Code: </label>
+        <input onkeypress="return /[0-9]/i.test(event.key)"  type="text" name="zipcode" id="zipcode" required
+        placeholder="Required, numeric only" style="width: 250px;" >
+      </div>
+      <div class="email">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required
+        placeholder="Required, valid email adress only" style="width: 250px;">
+      </div>
+
+      <div class="Sex">
+        <label for="sex">Sex: </label>
+        <input type="radio" name="sex" value="Male" required>Male      
+        <input type="radio" name="sex" value="Female" required>Female
+  
+        <br> 
+         </div>
+
+      <div class="language">
+        <label for="language">language: </label>
+        <input type="checkbox" name="language" value="english">English 
+        <input type="checkbox" name="language" value="non_english">Non English</div>
+        
+      
+        <br> 
+        
+      </div>
+
+      <div class="about">
+        <label for="about">About:</label>
+        <textarea name="about" id="about" cols="50" rows="10" placeholder="Optional"></textarea>
+         </textarea>
+          
+          
+    </div>
+    <br>
+     
+    <button class="button"><span>Submit </span></button>
+
+    </form>
+    
+</body>

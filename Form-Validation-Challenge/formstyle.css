@@ -1,0 +1,126 @@
+::placeholder {
+  color: red;
+  opacity: 1;
+}
+
+body {
+  border: 2px solid black;
+  padding: 25px;
+  background: url(v960-ning-30.jpg);
+  background-repeat: no-repeat;
+  background-size: 3000px 3000px;
+} 
+
+
+  button, input, select, textarea {
+    font-family: inherit;
+    font-size: 98%;
+    color: black;
+  }
+
+  h1 { margin-left: 15%}
+
+
+
+
+
+
+
+
+
+
+form.form-example {
+    display: table;
+  
+
+}
+
+div.userid {
+    display: table-row; 
+    ;
+}
+div.password {
+    display: table-row;
+}
+div.name {
+    display: table-row;
+}
+div.adress {
+    display: table-row;
+    
+}
+div.country {
+    display: table-row;
+    color: black;
+}
+
+div.zipcode {
+    display: table-row;
+}
+div.email {
+  display: table-row;
+}
+div.sex {
+    display:table-row;
+}
+
+div.language {
+    display: table-row;
+}
+
+div.about {
+    display: table-row;
+}
+
+
+
+.button {
+  border-radius: 4px;
+  background-color: rgb(161, 161, 243);
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 150%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+label, input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+
