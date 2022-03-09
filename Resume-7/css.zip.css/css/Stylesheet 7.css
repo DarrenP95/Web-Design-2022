@@ -1,0 +1,194 @@
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  background-color: rgba(255, 0, 0, 0.3)
+  
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+ 
+ background-color: rgba(255, 0, 0, 0.3)
+  
+}
+
+
+body {
+ 
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size:medium;
+  
+  
+  
+  
+} 
+
+
+.wrapper{
+  display: flex;
+
+}
+header { 
+  
+  text-align: center;
+  background-color: rgba(125,125,125 0.5);
+  color: black;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+#headshot {
+  
+  border:   WHITE  solid 10px;
+  
+}
+
+
+.sidebar{
+  flex:1;
+  height: 1070px;
+  background-color: rgba(125,125,125 0.5);
+  color: black;
+  opacity: 0.9;
+
+}
+.info{
+  flex:15;
+  height: 1000px;
+  background-color: rgba(125,125,125 0.5);
+  
+  
+  opacity: 0.9;
+  }
+
+
+.e1 {  background-color: rgba(125,125,125 0.5);
+}
+
+.q0 {
+    display: flex;
+}
+ .q1 {flex:15;
+  height: 205px;
+  background-color: rgba(125,125,125 0.5);
+  
+  border: white solid;
+  }
+  .q2 {flex:15;
+    height: 205px;
+    background-color: rgba(125,125,125 0.5);
+
+    border: white solid;
+    }
+
+    .q3 {flex:15;
+      height: 205px;
+      background-color: rgba(125,125,125 0.5);
+
+      border: white solid;
+      }
+ 
+ 
+ 
+  .e2 {  background-color: rgba(125,125,125 0.5);
+  }
+  .ex0 {
+    display: flex;}
+ .ex1 {flex:15;
+  height: 300px;
+  background-color: rgba(125,125,125 0.5);
+  
+  border: white solid;
+  }
+  .ex2 {flex:15;
+    height: 300px;
+    
+    border: white solid;
+    background-color: rgba(125,125,125 0.5);
+
+    }
+    .ex3 {flex:15;
+      height: 300px;
+      
+      border: white solid;
+      background-color: rgba(125,125,125 0.5);
+
+      }
+
+      .s0 {
+        display: flex;}
+     .s1 {flex:15;
+      height: 220px;
+      background-color: rgba(125,125,125 0.5);
+
+      border: white solid;
+      }
+      .s2 {flex:15;
+        height: 220px;
+        
+        border: white solid;
+        background-color: rgba(125,125,125 0.5);
+
+        }
+
+
+
+
+
+    
+
+
+  .footer {
+    flex:15;
+    height: 220px;
+    
+    
+    background-color: rgba(125,125,125 0.5);
+
+    text-align: center;
+    color: black;
+    
+    
+    }
+
+
+#icon{
+width: 3rem;
+margin: 2rem;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
+
